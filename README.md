@@ -10,7 +10,7 @@ This project has three main parts that all work together:
 **Spring Boot Backend API** (`http://localhost:8080`)
 - Handles the AI magic by connecting to Google's Gemini API
 - Takes your email content and returns smart replies
-- Built with Java 23 using Spring Boot from start.spring.io
+- Built with Java 25 using Spring Boot from start.spring.io
 
 **React Frontend** (`http://localhost:5173`) 
 - A clean web interface where you can paste any email and get AI-generated responses
@@ -85,7 +85,7 @@ The React app is simpler - it's just a text box where you paste email content an
 - **Full-Stack Development**: How frontend, backend, and extensions communicate
 
 ## Technologies I Used
-- **Backend**: Java 23, Spring Boot 3.x, Maven, Gemini API
+- **Backend**: Java 25, Spring Boot 3.5, Maven, Gemini API
 
 - **Frontend**: React, Material-UI, Axios, Vite
 
